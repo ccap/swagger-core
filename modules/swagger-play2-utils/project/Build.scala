@@ -6,13 +6,13 @@ import PlayKeys._
 
 object ApplicationBuild extends Build {
   val appName = "swagger-play2-utils"
-  val appVersion = "1.3.12-ccap01"
+  val appVersion = "1.3.12-ccap02"
 
   scalaVersion := "2.11.1"
 
   val appDependencies: Seq[sbt.ModuleID] = Seq(
     "org.slf4j"    % "slf4j-api"    % "1.6.4",
-    "com.wordnik" %% "swagger-core" % "1.3.12-ccap01",
+    "com.wordnik" %% "swagger-core" % "1.3.12-ccap02",
     "com.wordnik" %% "common-utils" % "1.3.0",
     "javax.ws.rs"  % "jsr311-api"   % "1.1.1")
 
