@@ -30,6 +30,14 @@
     <system>github</system>
     <url>https://github.com/swagger-api/swagger-core/issues</url>
   </issueManagement>
+  <distributionManagement>
+    <repository>
+      <id>ccap</id>
+      <name>CCAP</name>
+      <url>https://repoman.wicourts.gov/artifactory/ext-release-local/</url>
+      <layout>default</layout>
+    </repository>
+  </distributionManagement>
   <mailingLists>
     <mailingList>
       <name>swagger-swaggersocket</name>
