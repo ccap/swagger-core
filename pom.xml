@@ -9,7 +9,7 @@
   <artifactId>swagger-project_2.12</artifactId>
   <packaging>pom</packaging>
   <name>wordnik-swagger-project</name>
-  <version>1.3.12-ccap02</version>
+  <version>1.3.12-ccap03</version>
   <url>https://github.com/swagger-api/swagger-core</url>
   <scm>
     <connection>scm:git:git@github.com:swagger-api/swagger-core.git</connection>
@@ -30,6 +30,18 @@
     <system>github</system>
     <url>https://github.com/swagger-api/swagger-core/issues</url>
   </issueManagement>
+  <repositories>
+    <repository>
+      <id>ccap-maven</id>
+      <name>CCAP Maven</name>
+      <url>https://repoman.wicourts.gov/artifactory/scala</url>
+    </repository>
+    <repository>
+      <id>maven</id>
+      <name>Apache Maven</name>
+      <url>https://repo.maven.apache.org/maven2</url>
+    </repository>
+  </repositories>
   <distributionManagement>
     <repository>
       <id>ccap</id>
@@ -499,7 +511,7 @@
     <jackson-other-version>2.9.10</jackson-other-version>
     <jackson-scala-version>2.9.10</jackson-scala-version>
     <logback-version>1.0.1</logback-version>
-    <json4s-version>3.5.2</json4s-version>
+    <json4s-version>3.5.2-ccap</json4s-version>
     <swagger-ui-version>2.0.24</swagger-ui-version>
 
     <junit-version>4.8.1</junit-version>

@@ -2,7 +2,7 @@
   <parent>
     <groupId>com.wordnik</groupId>
     <artifactId>swagger-project_2.12</artifactId>
-    <version>1.3.12-ccap02</version>
+    <version>1.3.12-ccap03</version>
     <relativePath>../..</relativePath>
   </parent>
   <modelVersion>4.0.0</modelVersion>
@@ -10,7 +10,19 @@
   <artifactId>swagger-core_2.12</artifactId>
   <packaging>bundle</packaging>
   <name>swagger-core</name>
-  <version>1.3.12-ccap02</version>
+  <version>1.3.12-ccap03</version>
+  <repositories>
+    <repository>
+      <id>ccap-maven</id>
+      <name>CCAP Maven</name>
+      <url>https://repoman.wicourts.gov/artifactory/scala</url>
+    </repository>
+    <repository>
+      <id>maven</id>
+      <name>Apache Maven</name>
+      <url>https://repo.maven.apache.org/maven2</url>
+    </repository>
+  </repositories>
   <build>
     <sourceDirectory>src/main/java</sourceDirectory>
     <defaultGoal>install</defaultGoal>
@@ -102,13 +114,13 @@
       <artifactId>json4s-ext_2.12</artifactId>
       <version>${json4s-version}</version>
       <scope>compile</scope>
-    </dependency> 
+    </dependency>
     <dependency>
       <groupId>org.json4s</groupId>
       <artifactId>json4s-native_2.12</artifactId>
       <version>${json4s-version}</version>
       <scope>compile</scope>
-    </dependency>    
+    </dependency>
     <dependency>
       <groupId>org.json4s</groupId>
       <artifactId>json4s-jackson_2.12</artifactId>
